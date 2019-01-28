@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dominos_background"
+    tools:context="com.sri.dominospizza.Login">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/dominos_logo"
+            android:layout_width="180dp"
+            android:layout_height="180dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/signUpBtn"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            app:shadowEnabled="true"
+            android:layout_margin="8dp"
+            app:fButtonColor="@color/ButtonAlt"
+            app:shadowHeight="2dp"
+            app:cornerRadius="25dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/signInBtn"
+            android:text="Sign In"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            app:shadowEnabled="true"
+            android:layout_margin="8dp"
+            app:fButtonColor="@color/ButtonSign"
+            app:shadowHeight="2dp"
+            app:cornerRadius="25dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

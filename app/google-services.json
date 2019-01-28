@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "110821490880",
+    "firebase_url": "https://domino-s-pizza-sri.firebaseio.com",
+    "project_id": "domino-s-pizza-sri",
+    "storage_bucket": "domino-s-pizza-sri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110821490880:android:80a2fd1b36bc7c33",
+        "android_client_info": {
+          "package_name": "com.sri.dominospizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110821490880-6tf9vqa3l5g75659tanjm4emuh7lv20c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sri.dominospizza",
+            "certificate_hash": "2dfbece9f3ea42552a0cbdd458190cef038fd59c"
+          }
+        },
+        {
+          "client_id": "110821490880-tgqcesk0uca1h3dp6copin62n67mut59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc2MI7S74mg2bdA4FeV3A-IX9Xt69No4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110821490880-tgqcesk0uca1h3dp6copin62n67mut59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dominos_background"
+    tools:context="com.sri.dominospizza.SignUp">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/newPhoneEdt"
+            android:hint="Phone Number"
+            android:textColorHint="@color/white"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="phone"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@color/white"
+            app:met_singleLineEllipsis="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/newNameEdt"
+            android:hint="Name"
+            android:textColorHint="@color/white"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="text"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="40"
+            app:met_primaryColor="@color/white"
+            app:met_singleLineEllipsis="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/newPasswordEdt"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="5"
+            app:met_primaryColor="@color/white"
+            app:met_singleLineEllipsis="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/newPasswordRepeatEdt"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/white"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="5"
+            app:met_primaryColor="@color/white"
+            app:met_singleLineEllipsis="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/secureCodeEdt"
+            android:hint="Secure Code"
+            android:textColorHint="@color/white"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="text"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="4"
+            app:met_primaryColor="@color/white"
+            app:met_singleLineEllipsis="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/signUp_signUpBtn"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        app:shadowEnabled="true"
+        android:layout_margin="8dp"
+        app:fButtonColor="@color/ButtonAlt"
+        app:shadowHeight="5dp"
+        app:cornerRadius="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

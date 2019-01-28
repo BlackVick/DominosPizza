@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Domino\'s Pizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="slogan">"You Got 30 Minutes"</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_branches">Branches</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_food_list">FoodList</string>
+    <string name="title_activity_food_detail">FoodDetail</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_order_status">OrderStatus</string>
+    <string name="title_activity_news_feed">NewsFeed</string>
+</resources>
